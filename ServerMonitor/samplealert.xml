@@ -1,0 +1,55 @@
+﻿<Job xmlns:ns2='urn:oasis:names:tc:emergency:cap:1.2'>
+  <acknowledgement>
+    <isRequired>true</isRequired>
+    <option1>I need assistance</option1>
+    <option2>I don't need assistance</option2>
+  </acknowledgement>
+  <alert>
+    <ns2:identifier>72447ab8-ace3-4330-921a-37503a858d19</ns2:identifier>
+    <ns2:sender ></ns2:sender>
+    <ns2:status>Actual</ns2:status>
+    <ns2:msgType>Alert</ns2:msgType>
+    <ns2:source ></ns2:source>
+    <ns2:scope>Private</ns2:scope>
+    <ns2:restriction></ns2:restriction>
+    <ns2:addresses>All Users</ns2:addresses>
+    <ns2:note></ns2:note>
+    <ns2:references></ns2:references>
+    <ns2:incidents>'Fire'</ns2:incidents>
+    <ns2:info>
+      <ns2:category>Fire</ns2:category>
+      <ns2:event>Fire on the forth floor</ns2:event>
+      <ns2:responseType>Evacuate</ns2:responseType>
+      <ns2:urgency>Immediate</ns2:urgency>
+      <ns2:severity>Extreme</ns2:severity>
+      <ns2:certainty>Observed</ns2:certainty>
+      <ns2:audience></ns2:audience>
+      <ns2:senderName></ns2:senderName>
+      <ns2:headline>Evacuate the building as per evacuation plan</ns2:headline>
+      <ns2:description>Fire has been observed on the forth floor and is spreading across the building. Please evacuate your rooms and proceed to your assembly area immediately. Do not use elevators.</ns2:description>
+      <ns2:instruction>
+        1) Remain calm
+        2) Leave immediately, do not wait around to collect your belongings
+        3) Ensure the room is empty upon leaving and shut your room door
+        4) Quickly evacuate the building at your nearest Emergency Exit
+        5) Do not use the lift
+        6) Wait at the designated meeting point
+      </ns2:instruction>
+      <ns2:web>www.firstaid.com</ns2:web>
+      <ns2:contact>Jimmy Jones: 555-535-5789</ns2:contact>
+      <ns2:parameter>
+        <ns2:valueName>p8Category</ns2:valueName>
+        <ns2:value>Fire</ns2:value>
+      </ns2:parameter>
+      <ns2:parameter>
+        <ns2:valueName>p8CategoryIcon</ns2:valueName>
+        <ns2:value>fire</ns2:value>
+      </ns2:parameter>
+    </ns2:info>
+  </alert>
+  <alertId>72447ab8-ace3-4330-921a-37503a858d19</alertId>
+  <groupId>9550B1DE-005E-4abc-B9DF-D1B815B2758C</groupId>
+  <groupName>All Users</groupName>
+  <important>false</important>
+  <validForMins>10</validForMins>
+</Job>
