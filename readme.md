@@ -1,6 +1,6 @@
 Service Monitor
 ---------------
-This code sample, installed as windows service, monitors a server by sending ping commands. If server fails to reply to a ping this sample application sends pre-generated Alerts using the ReachPlus Alerts SDK.
+This code sample, installed as windows service, monitors a server by sending ping commands. If the server fails to reply to a ping this sample sends pre-generated Alerts using the ReachPlus Alerts SDK.
 
 You may change configuration parameters such as username and  password in *ServerMonitor.exe.config*.  After generating binaries use *installutil.exe* to install the service.
 
